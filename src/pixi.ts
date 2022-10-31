@@ -3,7 +3,7 @@ import * as filters from "pixi-filters";
 import * as PIXIInstance from "pixi.js";
 import { PixelRatio } from "react-native";
 
-interface ApplicationOptions extends PIXIInstance.ApplicationOptions {
+interface ApplicationOptions extends PIXIInstance.IApplicationOptions {
   context: ExpoWebGLRenderingContext;
 }
 
